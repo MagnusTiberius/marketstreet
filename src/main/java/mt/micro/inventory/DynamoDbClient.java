@@ -18,7 +18,7 @@ public class DynamoDbClient {
 		//AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
 		//		.withRegion(Regions.US_WEST_2)
 		//		.build();  
-	    log.trace("Entering DynamoDbClient()");
+	    log.info("Entering DynamoDbClient()");
 
 		AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().withEndpointConfiguration(
 			new AwsClientBuilder.EndpointConfiguration("http://localhost:8000", "us-west-2"))

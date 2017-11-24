@@ -12,7 +12,7 @@ public class InventoryApplication {
 	private final static Logger log = LoggerFactory.getLogger("InventoryApplication");
 	
 	public static void main(String[] args) {
-	    log.trace("Entering InventoryApplication()");
+	    log.info("Entering InventoryApplication()");
 		
 		SpringApplication.run(InventoryApplication.class, args);
 	}
